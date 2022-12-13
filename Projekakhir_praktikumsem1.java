@@ -15,7 +15,7 @@ public static Scanner in = new Scanner(System.in);
         String[][] petak = new String[baris][kolom];
         
 
-        // input jenis bunga di setiap petak
+        // input jenis sayur di setiap petak
         for( baris = 0; baris < petak.length; baris++){
             for( kolom = 0; kolom < petak[baris].length; kolom++){
                 System.out.printf("petak tanah ke (%d,%d) akan ditanami : ", baris, kolom);
